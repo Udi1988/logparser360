@@ -39,3 +39,18 @@ Designed for developers, system administrators, and security-conscious users.
 ```bash
 git clone https://github.com/Udi1988/logparser360.git
 cd logparser360
+
+### 2. Create a Python Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+### 3. 3. Configure Email Alerts
+Edit parser.py and update these lines with your real email details:
+SENDER_EMAIL = "your-email@gmail.com"
+SENDER_PASSWORD = "your-app-password"
+RECIPIENT_EMAIL = "recipient@example.com"
+
+### 4. Run the Parser
+python3 parser.py
+
+Your report will be saved to reports/report.json, and an email will be sent if issues are detected. 
