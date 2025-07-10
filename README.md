@@ -53,4 +53,28 @@ RECIPIENT_EMAIL = "recipient@example.com"
 ### 4. Run the Parser
 python3 parser.py
 
-Your report will be saved to reports/report.json, and an email will be sent if issues are detected. 
+Your report will be saved to reports/report.json, and an email will be sent if issues are detected.
+
+---
+
+ Folder Structure
+logparser360/
+├── parser.py               # Main script
+├── utils/
+│   └── email_alert.py      # Email utility
+├── sample_logs/
+│   └── auth.log            # Test log file
+├── reports/
+│   └── report.json         # Output report
+├── README.md
+└── .gitignore
+
+---
+
+👤 Author
+Udeshan Moodley
+Software Tester | Automation Enthusiast
+
+
+
+
