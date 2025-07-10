@@ -1,0 +1,11 @@
+{
+    "total_lines": 4,
+    "failed_logins": 1,
+    "sudo_attempts": 1,
+    "errors": 1,
+    "warnings": 1,
+    "top_errors": [
+        "Jul 10 17:35:22 ubuntu systemd: error: failed to start service"
+    ],
+    "last_updated": "2025-07-10T17:32:49.746851"
+}
